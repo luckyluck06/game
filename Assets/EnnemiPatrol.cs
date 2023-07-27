@@ -11,13 +11,17 @@ public class EnnemiPatrol : MonoBehaviour
     private Transform target;
     private int destPoint = 0;
 
+   
+
 
     // Start is called before the first frame update
     void Start()
     {
+
+       
         target = waypoints[0];
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -31,8 +35,8 @@ public class EnnemiPatrol : MonoBehaviour
             target = waypoints[destPoint];
         }
     }
-   public void OnCollisionEnter2D(Collision2D col)
+  /* public void OnCollisionEnter2D(Collision2D col)
    {
         gameObject.SetActive(false);
-   }
+   }*/
 }

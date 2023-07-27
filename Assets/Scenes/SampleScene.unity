@@ -1379,8 +1379,8 @@ Tilemap:
   - first: {x: 0, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3558,9 +3558,9 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 22
+  - m_RefCount: 21
     m_Data: {fileID: 11400000, guid: 8a4f5fbac8558a34e8d6358ee4feb119, type: 2}
-  - m_RefCount: 44
+  - m_RefCount: 45
     m_Data: {fileID: 11400000, guid: a80aa576eeccb5148b26d3b5f89fb9c9, type: 2}
   - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: 80d02c062f4368546be9ff7c4361e94d, type: 2}
@@ -3571,9 +3571,9 @@ Tilemap:
   - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: 19212b347b7391b48af37e77aa935836, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 22
+  - m_RefCount: 21
     m_Data: {fileID: 21300000, guid: 19b9ff3c9a61b1f4ba35a8c3754b5651, type: 3}
-  - m_RefCount: 44
+  - m_RefCount: 45
     m_Data: {fileID: 21300000, guid: 7d3c8ad8ac54d9f429d7ae9f753f100f, type: 3}
   - m_RefCount: 31
     m_Data: {fileID: 21300000, guid: 7abbbe604c8fa174796a79be44680ca8, type: 3}
@@ -3665,7 +3665,7 @@ GameObject:
   - component: {fileID: 260766271}
   m_Layer: 0
   m_Name: Graphics
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3982,11 +3982,11 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalPosition: {x: -1.55, y: -0.43, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 554756847}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554756844
 GameObject:
@@ -4093,10 +4093,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.55, y: -0.43, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 519420032}
   - {fileID: 275152320}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5762,6 +5761,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 519420032}
   - {fileID: 79525527}
   - {fileID: 554756847}
   - {fileID: 33214211}

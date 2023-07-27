@@ -18,17 +18,21 @@ public class charactercontroller : MonoBehaviour
     private bool oldAttack = false;
     private float attackTime = 0.0f;
     private float startScaleX = 2.5f;
+    private Camera camera;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        camera = FindObjectOfType<Camera>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
         sr = GetComponent<SpriteRenderer>();
         startScaleX = transform.localScale.x;
     }
+
+    
 
     // Update is called once per frame
     void Update()
@@ -47,8 +51,9 @@ public class charactercontroller : MonoBehaviour
         }
 
 
+
         Vector3 scale = transform.localScale;
-        float flipFactor = rb.velocity.x > 0 ? -1 : 1;
+        float flipFactor = rb.velocity.x > 0 ? -1 : rb.velocity.x < 0 ? 1 : scale.x / Mathf.Abs(scale.x);
         scale.x = flipFactor * startScaleX;
         transform.localScale = scale;
 
@@ -69,6 +74,15 @@ public class charactercontroller : MonoBehaviour
         attackTime -= Time.deltaTime;
         oldAttack = Input.GetButtonDown("Fire2");
     }
+    void LateUpdate()
+    {
+
+        Vector3 position = camera.transform.position;
+        position.x = transform.position.x;
+        position.y = transform.position.y;
+        camera.transform.position = position;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -79,8 +93,16 @@ public class charactercontroller : MonoBehaviour
 
         if (other.TryGetComponent(out EnnemiPatrol enemy))
         {
-            Debug.Log("Tet");
-        }
+        
+        if(enemy.gameObject.tag.Equals("Ennemy"))
+       enemy.gameObject.SetActive(false);
     }
 
+    }
+    public void OnCollisionEnter2D(Collision2D col)
+
+    {
+        if(col.gameObject.tag.Equals("Ennemy"))
+        gameObject.SetActive(false);
+    }
 }
