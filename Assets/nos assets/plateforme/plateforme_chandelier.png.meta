@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2d2d8e15b9473a46ab30930870a8da6
+guid: 15bb77559768b29438cd367ea44a453e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chevalier_rouge-animation_0
+      name: plateforme_chandelier_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,41 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 682e1756f3aab45438a131c5fd18d8af
-      internalID: -352579591
+      spriteID: ed8171572430288418f9ca3a0f390c31
+      internalID: 429359425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chevalier_rouge-animation_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 273112776714c26428e1845426e82eec
-      internalID: 998643412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chevalier_rouge-animation_2
+      name: plateforme_chandelier_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,41 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5ad1560a9fab3149b59c9d6fcb35c01
-      internalID: 1255836180
+      spriteID: d2b0b09e2be33e74a8eaec1d2f6f0633
+      internalID: -438927677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chevalier_rouge-animation_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53078416492aa6748885ac6fd2bcdf31
-      internalID: 1552709368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chevalier_rouge-animation_4
+      name: plateforme_chandelier_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +179,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa975718cb7b9349aa5b01fa7e04a94
-      internalID: -1707617612
+      spriteID: acefdf473459fa445a08cfa1a6eb6175
+      internalID: 1984355170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plateforme_chandelier_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d923c56b95c8143a44630065297f61
+      internalID: 1929478504
       vertices: []
       indices: 
       edges: []
@@ -238,11 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chevalier_rouge-animation_0: -352579591
-      chevalier_rouge-animation_1: 998643412
-      chevalier_rouge-animation_2: 1255836180
-      chevalier_rouge-animation_3: 1552709368
-      chevalier_rouge-animation_4: -1707617612
+      plateforme_chandelier_0: 429359425
+      plateforme_chandelier_1: -438927677
+      plateforme_chandelier_2: 1984355170
+      plateforme_chandelier_3: 1929478504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
