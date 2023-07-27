@@ -31,4 +31,8 @@ public class EnnemiPatrol : MonoBehaviour
             target = waypoints[destPoint];
         }
     }
+   public void OnCollisionEnter2D(Collision2D col)
+   {
+        gameObject.SetActive(false);
+   }
 }
