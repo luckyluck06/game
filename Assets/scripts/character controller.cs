@@ -39,7 +39,7 @@ public class charactercontroller : MonoBehaviour
     {
         float crtMove = Input.GetAxis("Horizontal") * speed;
         rb.velocity = new Vector2(crtMove, rb.velocity.y);
-        animator.SetFloat("speed", crtMove);
+        animator.SetFloat("speed", Mathf.Abs (crtMove));
 
         bool crtJump = Input.GetButtonDown("Jump") && canJump > 0;
         if (crtJump)
