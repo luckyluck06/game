@@ -44,17 +44,13 @@ public class charactercontroller : MonoBehaviour
 
         sr.flipX = rb.velocity.x > 0;
     }
-    private void OnTriggerEnter2D(Collider2D other)
 
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
-        { 
+        {
             canJump=2;
         }
-
-
-
-
     }
 
 }
