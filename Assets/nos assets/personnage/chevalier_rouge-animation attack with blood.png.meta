@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ab8ac49dce4e974bb608ddec6312682
+guid: 93c13bfeac112544e9d22f270204a565
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime base couleur animation(1)_0
+      name: chevalier_rouge-animation attack with blood_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4376c9ce1d24ec468aea6030b326367
-      internalID: -725137892
+      spriteID: d8275ebc6ef815c489616aa115214d1a
+      internalID: 1248448142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime base couleur animation(1)_1
+      name: chevalier_rouge-animation attack with blood_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 424757a633e74cc489310fe2b0495956
-      internalID: -464874292
+      spriteID: 802227b606801ce40a8154466b915c57
+      internalID: -1904340578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation attack with blood_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d231a8a7adaead46a93817fac9197b2
+      internalID: 1509996355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation attack with blood_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4439bd24182f64b97ab76429c31fa6
+      internalID: -697425555
       vertices: []
       indices: 
       edges: []
@@ -175,8 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime base couleur animation(1)_0: -725137892
-      Slime base couleur animation(1)_1: -464874292
+      chevalier_rouge-animation attack with blood_0: 1248448142
+      chevalier_rouge-animation attack with blood_1: -1904340578
+      chevalier_rouge-animation attack with blood_2: 1509996355
+      chevalier_rouge-animation attack with blood_3: -697425555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
