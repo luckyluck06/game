@@ -18,9 +18,10 @@ public class charactercontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb=GetComponent<Rigidbody2D>();
-        animator=GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -31,7 +32,6 @@ public class charactercontroller : MonoBehaviour
         float crtMove = Input.GetAxis("Horizontal")*speed;
         rb.velocity = new Vector2(crtMove, rb.velocity.y);
         animator.SetFloat("speed", crtMove);
-        sr = GetComponent<SpriteRenderer>();
 
         bool crtJump = Input.GetButtonDown("Jump") && canJump > 0;
         if(crtJump)
