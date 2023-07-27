@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2c7903c4c7bfc543b9e15bef0d17b0b
+guid: 15bb77559768b29438cd367ea44a453e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime base couleur animation_0
+      name: plateforme_chandelier_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66c223ae8f61a904db0add7a0ce52fbf
-      internalID: -532338105
+      spriteID: ed8171572430288418f9ca3a0f390c31
+      internalID: 429359425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime base couleur animation_1
+      name: plateforme_chandelier_1
       rect:
         serializedVersion: 2
         x: 64
@@ -158,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aa1ba42332e2b44b9650d8311036463
-      internalID: 2130336610
+      spriteID: d2b0b09e2be33e74a8eaec1d2f6f0633
+      internalID: -438927677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plateforme_chandelier_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acefdf473459fa445a08cfa1a6eb6175
+      internalID: 1984355170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plateforme_chandelier_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d923c56b95c8143a44630065297f61
+      internalID: 1929478504
       vertices: []
       indices: 
       edges: []
@@ -175,8 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime base couleur animation_0: -532338105
-      Slime base couleur animation_1: 2130336610
+      plateforme_chandelier_0: 429359425
+      plateforme_chandelier_1: -438927677
+      plateforme_chandelier_2: 1984355170
+      plateforme_chandelier_3: 1929478504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
