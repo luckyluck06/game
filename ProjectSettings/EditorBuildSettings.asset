@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MorganeScene.unity
     guid: 1b34320a4a87a0841bdcb4436b1941a4
+  - enabled: 1
+    path: Assets/Scenes/nos assets/BOSS SCENES.unity
+    guid: 3f35b842ead63654f9e9c28f51ca0a52
   m_configObjects: {}
