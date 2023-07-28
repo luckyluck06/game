@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MorganeScene.unity
     guid: 1b34320a4a87a0841bdcb4436b1941a4
   - enabled: 1
-    path: Assets/Scenes/nos assets/BOSS SCENES.unity
-    guid: 3f35b842ead63654f9e9c28f51ca0a52
+    path: Assets/Scenes/LeandroScene.unity
+    guid: d5aca80f05bbbfb4196c81b315698c64
   m_configObjects: {}
