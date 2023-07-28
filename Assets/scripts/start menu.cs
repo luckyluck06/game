@@ -24,7 +24,7 @@ public class startmenu : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("LucaScene");
+        SceneManager.LoadScene("LeandroScene");
     }
 
 
