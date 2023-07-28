@@ -9,7 +9,7 @@ public class TPprog : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("faux 333" );
+       
         SceneManager.LoadScene(nextLevel);
     }
 }
