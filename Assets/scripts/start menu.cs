@@ -22,7 +22,7 @@ public class startmenu : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Morgane");
     }
 
 
