@@ -24,6 +24,7 @@ public class startmenu : MonoBehaviour
     }
     public void StartGame()
     {
+        SoundManager.manager.PlayMusic(SoundManager.Game);
         SceneManager.LoadScene("LucaScene");
     }
 
