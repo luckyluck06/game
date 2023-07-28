@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: mur_fenetre_bas
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 619e1f35145859f4ea11f2db2522d76d, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 588e0e2d1c1e4ba48810b1b80f6732ab, type: 3}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
