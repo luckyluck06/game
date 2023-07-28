@@ -86,20 +86,18 @@ public class charactercontroller : MonoBehaviour
     }
     public void Hit()
     {
-       
-       
+       if (isDead) return;
         {
             isDead = true;
-            animator.SetBool("Dead", true);
-
-
-
+            animator.SetTrigger("Dead");
+            rb.velocity = Vector3.zero;
         }
-
     }
+
     public void Die()
     {
-        gameObject.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
 
     }
     void LateUpdate()
@@ -129,9 +127,10 @@ public class charactercontroller : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D col)
 
     {
-        if(col.gameObject.tag.Equals("Ennemy"))
+
+        if (col.gameObject.tag.Equals("Ennemy"))
             //gameObject.SetActive(false);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Hit();
 
     }
 } 
