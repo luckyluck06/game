@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class charactercontroller : MonoBehaviour
 {
@@ -49,15 +51,10 @@ public class charactercontroller : MonoBehaviour
             countJump++;
             canJump--;
         }
-
-
-
         Vector3 scale = transform.localScale;
         float flipFactor = rb.velocity.x > 0 ? -1 : rb.velocity.x < 0 ? 1 : scale.x / Mathf.Abs(scale.x);
         scale.x = flipFactor * startScaleX;
         transform.localScale = scale;
-
-
         if (Input.GetButtonDown("Fire2") && !oldAttack && attackTime <= 0)
         {
             animator.SetBool("Attack", true);
@@ -82,8 +79,6 @@ public class charactercontroller : MonoBehaviour
         position.y = transform.position.y;
         camera.transform.position = position;
     }
-
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
@@ -103,6 +98,8 @@ public class charactercontroller : MonoBehaviour
 
     {
         if(col.gameObject.tag.Equals("Ennemy"))
-        gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
-}
+} 
