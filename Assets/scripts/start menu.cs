@@ -16,14 +16,22 @@ public class startmenu : MonoBehaviour
     public void Hide()
     {
        creditPanel.SetActive(false); 
-    }  public void Showcredit()
+    }  
+    
+    public void Showcredit()
     {
        creditPanel.SetActive(true); 
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("Morgane");
+        SceneManager.LoadScene("LucaScene");
     }
 
 
+
+    public void Quit()
+    {
+       Application.Quit(); 
+
+    }
 }
