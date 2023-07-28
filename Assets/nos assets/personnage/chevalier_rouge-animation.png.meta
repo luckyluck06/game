@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 83e62fcb1c028dd43ae354975e48e65a
+guid: d2d2d8e15b9473a46ab30930870a8da6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e9ed21af2c1d304581aa7db6efe8d64
-      internalID: -867096341
+      spriteID: 682e1756f3aab45438a131c5fd18d8af
+      internalID: -352579591
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9236a2490dc96f4a8ca065a39a568c9
-      internalID: -367223317
+      spriteID: 273112776714c26428e1845426e82eec
+      internalID: 998643412
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a9cac2224cb9d45946efd7e71fe0d2
-      internalID: -606282713
+      spriteID: c5ad1560a9fab3149b59c9d6fcb35c01
+      internalID: 1255836180
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78532aff8675cb344aec4f58023490ab
-      internalID: -1125488457
+      spriteID: 53078416492aa6748885ac6fd2bcdf31
+      internalID: 1552709368
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce51382550cb9eb4e8fbceef9d7b1baf
-      internalID: -1115478026
+      spriteID: faa975718cb7b9349aa5b01fa7e04a94
+      internalID: -1707617612
       vertices: []
       indices: 
       edges: []
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chevalier_rouge-animation_0: -867096341
-      chevalier_rouge-animation_1: -367223317
-      chevalier_rouge-animation_2: -606282713
-      chevalier_rouge-animation_3: -1125488457
-      chevalier_rouge-animation_4: -1115478026
+      chevalier_rouge-animation_0: -352579591
+      chevalier_rouge-animation_1: 998643412
+      chevalier_rouge-animation_2: 1255836180
+      chevalier_rouge-animation_3: 1552709368
+      chevalier_rouge-animation_4: -1707617612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
