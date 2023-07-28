@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class charactercontroller : MonoBehaviour
 {
@@ -96,6 +98,8 @@ public class charactercontroller : MonoBehaviour
 
     {
         if(col.gameObject.tag.Equals("Ennemy"))
-        gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
-} //ajgdfkjawhgfzawegf
+} 
