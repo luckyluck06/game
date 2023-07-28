@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2cb42e7322b63194d994b940725aa4af
+guid: 0fca82e846b475d47ada6c6730535a61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime rouge explosion_0
+      name: chevalier_rouge-animation death_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c0d9c70ee609354cac19904aca7bedd
-      internalID: -1316518391
+      spriteID: 14d609bb228c89c4f83138acdf9dcbe5
+      internalID: 1615879617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime rouge explosion_1
+      name: chevalier_rouge-animation death_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ec7fed637886b49bc0fc8837926aa7
+      internalID: 1924520200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation death_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75cc99ce7bba64c49b10410b956d5fec
-      internalID: 1402023112
+      spriteID: 16e3ed5b1b3df04458238b59e4e20a68
+      internalID: -385489317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime rouge explosion_2
+      name: chevalier_rouge-animation death_3
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5e3fce80bb9da49acccbf363c8f036
-      internalID: -712733132
+      spriteID: f361f7dc7389403438310f57f511a94f
+      internalID: -1722202092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation death_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e3487941d68be47a531286279820f7
+      internalID: -1052617784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation death_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827517812176c642b0be7a823aedf0b
+      internalID: 934192887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation death_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c086e905ab99c9a41ba383548d5cda9a
+      internalID: 330053515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chevalier_rouge-animation death_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f91085ec99bfce4d845f922072a38bc
+      internalID: 385652347
       vertices: []
       indices: 
       edges: []
@@ -196,9 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime rouge explosion_0: -1316518391
-      slime rouge explosion_1: 1402023112
-      slime rouge explosion_2: -712733132
+      chevalier_rouge-animation death_0: 1615879617
+      chevalier_rouge-animation death_1: 1924520200
+      chevalier_rouge-animation death_2: -385489317
+      chevalier_rouge-animation death_3: -1722202092
+      chevalier_rouge-animation death_4: -1052617784
+      chevalier_rouge-animation death_5: 934192887
+      chevalier_rouge-animation death_6: 330053515
+      chevalier_rouge-animation death_7: 385652347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
