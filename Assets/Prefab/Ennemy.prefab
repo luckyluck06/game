@@ -182,6 +182,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 2172832263829954640}
   - {fileID: 6099206560721402425}
+  - {fileID: 6099206560721402425}
 --- !u!95 &4778275699158524051
 Animator:
   serializedVersion: 5

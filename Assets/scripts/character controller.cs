@@ -88,9 +88,10 @@ public class charactercontroller : MonoBehaviour
 
         if (other.TryGetComponent(out EnnemiPatrol enemy))
         {
-        
-        if(enemy.gameObject.tag.Equals("Ennemy"))
-       enemy.gameObject.SetActive(false);
+
+            if (enemy.gameObject.tag.Equals("Ennemy"))
+                other.gameObject.GetComponent<EnnemiPatrol>().Hit();
+
     }
 
     }
