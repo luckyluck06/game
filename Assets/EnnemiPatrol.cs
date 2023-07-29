@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnnemiPatrol : MonoBehaviour
 
@@ -8,6 +9,7 @@ public class EnnemiPatrol : MonoBehaviour
     public float speed;
     public Transform[] waypoints;
     public int lifes = 1;
+    public bool loadandscreen = false;
     public float timeToDie = 0.3f;
 
     private Transform target;
@@ -66,6 +68,9 @@ public class EnnemiPatrol : MonoBehaviour
     public void Die()
     {
         gameObject.SetActive(false);
+        if (loadandscreen)
+         SceneManager.LoadScene("end menu");
+
 
     }
     /* public void OnCollisionEnter2D(Collision2D col)
