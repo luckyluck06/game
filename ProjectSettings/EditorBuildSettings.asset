@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LiamScene.unity
     guid: 46ca11c9d57c2244782d7a5c83156d30
+  - enabled: 1
+    path: Assets/Scenes/end menu.unity
+    guid: 22989b7e09bf425439abb0964a962aa6
   - enabled: 0
     path: Assets/Scenes/Morgane.unity
     guid: 3bd6557dae562b24a886199380f091d9

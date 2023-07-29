@@ -67,9 +67,11 @@ public class EnnemiPatrol : MonoBehaviour
     }
     public void Die()
     {
-        gameObject.SetActive(false);
+        
         if (loadandscreen)
          SceneManager.LoadScene("end menu");
+         else
+         gameObject.SetActive(false);
 
 
     }
