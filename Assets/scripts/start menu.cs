@@ -26,7 +26,8 @@ public class startmenu : MonoBehaviour
 
     {
         SoundManager.manager.PlayMusic(SoundManager.Game);
-        SceneManager.LoadScene("LeandroScene");
+        SceneManager.LoadScene("LucaScene");
+
     }
 
 
