@@ -22,6 +22,9 @@ public class charactercontroller : MonoBehaviour
     private float startScaleX = 2.5f;
     private Camera camera;
 
+    public float timeToDie = 0.3f;
+    private bool isDead = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +41,17 @@ public class charactercontroller : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
     {
+        if (isDead)
+        {
+            timeToDie -= Time.deltaTime;
+            if (timeToDie < 0)
+            {
+                Die();
+            }
+            return;
+        }
         float crtMove = Input.GetAxis("Horizontal") * speed;
         rb.velocity = new Vector2(crtMove, rb.velocity.y);
         animator.SetFloat("speed", Mathf.Abs (crtMove));
@@ -71,6 +84,22 @@ public class charactercontroller : MonoBehaviour
         attackTime -= Time.deltaTime;
         oldAttack = Input.GetButtonDown("Fire2");
     }
+    public void Hit()
+    {
+       if (isDead) return;
+        {
+            isDead = true;
+            animator.SetTrigger("Dead");
+            rb.velocity = Vector3.zero;
+        }
+    }
+
+    public void Die()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+
+    }
     void LateUpdate()
     {
 
@@ -98,9 +127,10 @@ public class charactercontroller : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D col)
 
     {
-        if(col.gameObject.tag.Equals("Ennemy"))
+
+        if (col.gameObject.tag.Equals("Ennemy"))
             //gameObject.SetActive(false);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Hit();
 
     }
 } 

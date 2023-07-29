@@ -23,8 +23,10 @@ public class startmenu : MonoBehaviour
        creditPanel.SetActive(true); 
     }
     public void StartGame()
+
     {
-        SceneManager.LoadScene("LucaScene");
+        SoundManager.manager.PlayMusic(SoundManager.Game);
+        SceneManager.LoadScene("LeandroScene");
     }
 
 
